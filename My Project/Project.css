@@ -1,0 +1,120 @@
+body, html {
+    font-family: Arial, sans-Serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d5deef;
+    
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+.hero{
+    background-image: url(background.jpeg);
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align:center;
+}
+.hero h1{
+    font-size: 50px;
+    font-family:sans-serif ;
+    color: aquamarine;
+    padding-bottom: 0%;
+    padding-right: 10px;
+}
+.hero p{
+    font-size: large;
+}
+.about-me{
+    padding: 20px;
+    text-align: center;
+}
+.projects{
+    padding: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 20px;
+}
+.Project-img{
+    height: 350px;
+    width: 400px;
+    border-radius: 5%;
+}
+.project{
+    width: 400px;
+    overflow: hidden;
+    color: black;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.project:hover{
+    background-color: #BAAEE0;
+}
+.skills{
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+.skills ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.skills li{
+    margin-bottom: 10px;
+}
+.experience{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.contact form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact{
+    text-align: center;
+    padding: 50px;
+}
+input, textarea, button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.file{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+.button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+footer{
+    background-image: url(background.jpeg); 
+    text-align: center;   
+}
